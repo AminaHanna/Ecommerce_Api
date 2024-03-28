@@ -1,0 +1,34 @@
+html{
+scroll-behavior: smooth;
+}
+
+.cardsmain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards{
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5%;
+}
+.addcart{
+    padding: 8px;
+    background-color: white;
+    color: brown;
+    font-size: medium;
+}
+.category{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+    align-items: center;
+}
